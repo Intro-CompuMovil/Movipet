@@ -6,6 +6,7 @@ veterinario especialista aliado más cercano con el usuario que está necesitand
 de que la mascota necesite ser trasladada a un centro médico veterinario para algún tipo de intervención quirúrgica, la aplicación 
 automáticamente va identificar el centro médico veterinario 24/7 más cercano y prestará el servicio de transporte hasta este centro 
 médico.
+
 II. PROPUESTA DE VALOR 
 
 Nuestra propuesta de valor en el mercado consiste en prestar una atención médica veterinaria inmediata, de calidad, con precios justos, 
