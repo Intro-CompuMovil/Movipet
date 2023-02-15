@@ -1,4 +1,5 @@
 I. DESCRIPCIÓN DEL PROYECTO
+
 Movipet es una aplicación móvil que ofrece una atención médica veterinaria inmediata con disponibilidad las 24 horas del día frente a 
 cualquier urgencia que presente algún perro o gato en la ciudad de Bogotá. La aplicación interconecta por medio de geolocalización al
 veterinario especialista aliado más cercano con el usuario que está necesitando asistencia médica de urgencia para su mascota. En caso 
@@ -6,16 +7,19 @@ de que la mascota necesite ser trasladada a un centro médico veterinario para a
 automáticamente va identificar el centro médico veterinario 24/7 más cercano y prestará el servicio de transporte hasta este centro 
 médico.
 II. PROPUESTA DE VALOR 
+
 Nuestra propuesta de valor en el mercado consiste en prestar una atención médica veterinaria inmediata, de calidad, con precios justos, 
 y con una disponibilidad de 24 horas al día. Esta idea surgió a raíz de analizar las frustraciones que tenían los clientes a la hora de recibir 
 asistencia médica cuando sus mascotas presentaban una urgencia.
 Revizar la wiki->Entregables del Proyecto
 
 III. LEAN CANVAS
+
 Revizar la wiki->Entregables del Proyecto
 
 
 IV. HISTORIAS DE USUARIO
+
 Historia de Usuario 1:
 
 Yo como cliente desearía poder hacer el registro de mi mascota en un sistema de manera fácil y rápida 
@@ -66,9 +70,11 @@ que cuando se presente una emergencia y tal vez no cuente con efectivo pueda pag
 de esta manera remunerar debidamente el servicio prestado a mi mascota
 
 V. USER STORY MAPPING
+
 Revizar la wiki->Entregables del Proyecto
 
 VI. DIAGRAMA DE CLASES
+
 Revizar la wiki->Entregables del Proyecto
 
 VII. LISTA DE SERVICIOS Y HARDWARE
