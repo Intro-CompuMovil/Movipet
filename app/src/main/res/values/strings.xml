@@ -1,3 +1,22 @@
 <resources>
     <string name="app_name">Taller1</string>
+    <string name="btn_countries"> COUNTRIES </string>
+    <string name="btn_guess_game"> GUESS GAME </string>
+    <string name="btn_random_greet"> RANDOM GREET </string>
+    <string name="textview_titulo"> TALLER 1 </string>
+    <string name="editText_hint"> 1 – 1000 </string>
+    <string name="btn_play"> PLAY </string>
+    <string name="hint_number"> Number.. </string>
+    <string name="contador"> Contador: </string>
+    <string name="resultado"> Resultado: </string>
+
+    <string-array name="idiomas">
+        <item>Español</item>
+        <item>Inglés</item>
+        <item>Alemán</item>
+        <item>Japones</item>
+        <item>Italiano</item>
+        <item>Francés</item>
+    </string-array>
+
 </resources>
