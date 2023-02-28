@@ -3,6 +3,7 @@ package com.example.taller1
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import android.text.TextUtils
 import android.view.View
 import android.widget.*
 
@@ -36,8 +37,19 @@ class MainActivity : AppCompatActivity() {
 
             val intent = Intent(this, Guess_game::class.java)
             val nlimite = etGuess_game.text.toString()
-            intent.putExtra("numeroLimite",nlimite )
-            startActivity(intent)
+
+            if (TextUtils.isEmpty(nlimite)) {
+                Toast.makeText(this, "Try again , empty ", Toast.LENGTH_SHORT).show()
+            } else {
+                if(Integer.parseInt(nlimite)>1000||Integer.parseInt(nlimite)<0){
+                    Toast.makeText(this, "Insert a correct number ", Toast.LENGTH_SHORT).show()
+                }else{
+                    intent.putExtra("numeroLimite",nlimite )
+                    startActivity(intent)
+                }
+
+            }
+
         }
         buttonPais.setOnClickListener{
             val intent = Intent(this, paises::class.java)

@@ -17,12 +17,10 @@
         android:text="@string/textview_titulo"
         android:textColor="@color/azul_oscuro"
         android:textSize="40sp"
-        app:layout_constraintBottom_toTopOf="@+id/btn_guess_game"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.552">
+        app:layout_constraintTop_toTopOf="parent">
 
     </TextView>
 
@@ -32,12 +30,10 @@
         android:layout_height="48dp"
         android:layout_marginStart="25dp"
         android:layout_marginEnd="25dp"
-        app:layout_constraintBottom_toTopOf="@+id/btn_countries"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.932">
+        app:layout_constraintTop_toBottomOf="@+id/btn_random_greet">
 
     </Spinner>
 
@@ -50,12 +46,12 @@
         android:backgroundTint="@color/azul_oscuro"
         android:text="@string/btn_guess_game"
         android:textSize="20sp"
-        app:layout_constraintBottom_toTopOf="@+id/editText_guess_game"
+        app:layout_constraintBottom_toTopOf="@+id/horizontal50"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintHorizontal_bias="1.0"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="1.0">
+        app:layout_constraintTop_toBottomOf="@+id/txtView_Taller1"
+        app:layout_constraintVertical_bias="0.748">
 
     </Button>
 
@@ -69,12 +65,10 @@
         android:hint="@string/editText_hint"
         android:inputType="number|phone"
 
-        app:layout_constraintBottom_toTopOf="@+id/btn_random_greet"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.795">
+        app:layout_constraintTop_toBottomOf="@+id/btn_guess_game">
 
     </EditText>
 
@@ -91,8 +85,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.955">
+        app:layout_constraintTop_toBottomOf="@+id/spn_random_greet">
 
     </Button>
 
@@ -105,14 +98,19 @@
         android:backgroundTint="@color/azul_oscuro"
         android:text="@string/btn_random_greet"
         android:textSize="20sp"
-        app:layout_constraintBottom_toTopOf="@+id/spn_random_greet"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="1.0">
+        app:layout_constraintTop_toBottomOf="@+id/editText_guess_game">
 
     </Button>
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/horizontal50"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="0.5" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>
