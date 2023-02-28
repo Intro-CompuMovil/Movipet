@@ -32,7 +32,6 @@
         android:layout_height="48dp"
         android:layout_marginStart="25dp"
         android:layout_marginEnd="25dp"
-        android:entries="@array/idiomas"
         app:layout_constraintBottom_toTopOf="@+id/btn_countries"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"

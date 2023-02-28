@@ -3,10 +3,13 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Users/marco/OneDrive/Documents/GitHub/Movipet/app/src/main/res/layout/activity_greetings.xml" value="0.36666666666666664" />
         <entry key="..\:/Users/marco/OneDrive/Documents/GitHub/Movipet/app/src/main/res/layout/activity_guess_game.xml" value="0.5" />
+        <entry key="..\:/Users/marco/OneDrive/Documents/GitHub/Movipet/app/src/main/res/layout/activity_main.xml" value="0.36666666666666664" />
         <entry key="..\:/Users/marco/OneDrive/Documents/GitHub/Movipet/app/src/main/res/layout/activity_pais_content.xml" value="0.18802083333333333" />
         <entry key="..\:/Users/marco/OneDrive/Documents/GitHub/Movipet/app/src/main/res/layout/activity_paises.xml" value="0.18802083333333333" />
         <entry key="..\:/Users/marco/OneDrive/Documents/GitHub/Movipet/app/src/main/res/layout/item_pais.xml" value="0.17395833333333333" />
+        <entry key="..\:/Users/marco/OneDrive/Documents/GitHub/Movipet/app/src/main/res/layout/pais_full.xml" value="0.18802083333333333" />
       </map>
     </option>
   </component>
