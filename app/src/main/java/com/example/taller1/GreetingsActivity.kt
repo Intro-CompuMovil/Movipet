@@ -4,7 +4,7 @@ import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.widget.TextView
 
-class Greetings : AppCompatActivity() {
+class GreetingsActivity : AppCompatActivity() {
     fun saludo (input:String): String {
         var output : String = "No paso nada"
         if(input=="Español")

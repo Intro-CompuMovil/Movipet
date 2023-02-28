@@ -12,7 +12,7 @@ import org.json.JSONObject
 import java.io.IOException
 import java.io.InputStream
 
-class paises : AppCompatActivity() {
+class paisesActivity : AppCompatActivity() {
     var listaPaises = ArrayList<Pais>()
 
     fun getJsonDataFromAsset(): String {
@@ -65,7 +65,7 @@ class paises : AppCompatActivity() {
         listaPais.onItemClickListener =
             OnItemClickListener { adapterView, view, i, l ->
                 val paisAux: Pais? = arrayAdapter.getItem(i)
-                val intentPais = Intent(view.context, paisContent::class.java)
+                val intentPais = Intent(view.context, paisContentActivity::class.java)
                 intentPais.putExtra("Pais", paisAux)
                 startActivity(intentPais)
             }
