@@ -8,7 +8,7 @@
     <string name="btn_play"> PLAY </string>
     <string name="hint_number"> Number.. </string>
     <string name="contador"> Contador: </string>
-    <string name="resultado"> Resultado: </string>
+    <string name="resultado"> Message: </string>
 
     <string-array name="idiomas">
         <item>Español</item>
