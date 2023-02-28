@@ -1,17 +1,19 @@
 package com.example.taller1
 
-import com.google.gson.annotations.SerializedName
+import java.io.Serializable
 
-data class Pais (@SerializedName("capital")
-                 val capital: String?=null,
-                 @SerializedName("nombre")
-                 val nombre: String,
-                 @SerializedName("nombreInter")
-                 val nombreInter: String,
-                 @SerializedName("sigla")
-                 val sigla: String,
-                 @SerializedName("urlImg")
-                 val urlImg: String){
 
+class Pais(
+    var capital: String,
+    var nombre: String,
+    var nombreInter: String,
+    var sigla: String,
+    var urlImg: String
+) :
+    Serializable {
+
+    override fun toString(): String {
+        return nombre
+    }
 }
 
