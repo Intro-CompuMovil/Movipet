@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/gradiente_colores"
+    tools:context=".Confirmar_foto">
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/h05"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintGuide_percent=".05"
+        android:orientation="horizontal"/>
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/h95"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintGuide_percent=".95"
+        android:orientation="horizontal"/>
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/v05"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintGuide_percent=".05"
+        android:orientation="vertical"/>
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/v95"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintGuide_percent=".95"
+        android:orientation="vertical"/>
+
+    <LinearLayout
+        android:id="@+id/ll_botones"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintBottom_toBottomOf="@id/h95"
+        app:layout_constraintStart_toStartOf="@id/v05"
+        app:layout_constraintEnd_toEndOf="@id/v95">
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/btn_foto"
+            android:layout_height="wrap_content"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:text="@string/btn_foto"
+            app:cornerRadius="3dp"/>
+
+        <Space
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight=".05"/>
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/btn_galeria"
+            android:layout_height="wrap_content"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:text="@string/btn_galeria"
+            app:cornerRadius="3dp"/>
+
+        <Space
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight=".05"/>
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/btn_guardar"
+            android:layout_height="wrap_content"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:text="@string/btn_guardar"
+            app:cornerRadius="3dp"/>
+
+    </LinearLayout>
+    
+    <ImageView
+        android:id="@+id/img"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginBottom="10dp"
+        app:layout_constraintStart_toStartOf="@id/v05"
+        app:layout_constraintEnd_toEndOf="@id/v95"
+        app:layout_constraintBottom_toTopOf="@id/ll_botones"
+        app:layout_constraintTop_toTopOf="@id/h05"/>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

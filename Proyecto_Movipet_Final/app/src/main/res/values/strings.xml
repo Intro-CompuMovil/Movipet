@@ -1,0 +1,50 @@
+<resources>
+    <string name="app_name">MoviPet</string>
+    <string name="btn_crearCuenta">Crear Cuenta</string>
+    <string name="txtview_usuario"> Usuario </string>
+    <string name="txtview_contraseña"> Contraseña </string>
+    <string name="et_usuario">Escriba su usuario</string>
+    <string name="et_contraseña">Escriba su contraseña</string>
+    <string name="txtview_movipet">MOVIPET</string>
+    <string name="btn_google">Registrarse con Google</string>
+    <string name="tv_correo">Correo</string>
+    <string name="et_correo">Escriba su correo</string>
+    <string name="tv_registro">REGISTRO</string>
+    <string name="tv_telefono">Telefono</string>
+    <string name="et_telefono">Escriba su telefono</string>
+    <string name="et_direccion">Escriba su direccion</string>
+    <string name="tv_direccion">Dirección</string>
+    <string name="btn_entrar">ENTRAR</string>
+    <string name="tv_nombreMascota">Nombre</string>
+    <string name="et_nombreMascota">Escriba el nombre</string>
+    <string name="et_raza">Escriba la raza</string>
+    <string name="tv_raza">Raza</string>
+    <string name="btn_agregarMascota">AGREGAR OTRA MASCOTA</string>
+    <string name="tv_tipoMascota">Tipo</string>
+    <string name="tv_peludito">Registra a tu peludito!!</string>
+    <string name="et_historiaClinica">Escriba la historia clinica</string>
+    <string name="tv_cargarFoto">Cargar Foto</string>
+    <string name="btn_agregar_otra_mascota">Agregar otra mascota</string>
+    <string name="btn_eliminarMascota">ELIMINAR MASCOTA ANTERIOR</string>
+    <string name="btn_continuar">CONTINUAR</string>
+    <string name="txtview_servicios">SERVICIOS</string>
+    <string name="btn_urgencia">URGENCIA</string>
+    <string name="btn_videoConsulta">VIDEO CONSULTA PROGRAMADA</string>
+    <string name="btn_paseadores">PASEADORES</string>
+    <string name="Btn_confirmar_foto">CONFIRMAR FOTO</string>
+    <string name="toast_imgGuardada">Imagen guardada en la galeria</string>
+    <string name="bnt_tomar_foto">FOTO</string>
+    <string name="btn_galeria">GALERIA</string>
+    <string name="btn_guardar">GUARDAR</string>
+    <string name="btn_continuar2">CONTINUAR</string>
+    <string name="iv_historia_clinica">Historia\nClinica</string>
+    <string name="tv_cargar_foto_mascota">Carga la foto de tu mascota!</string>
+    <string name="btn_foto">FOTO</string>
+
+    <string-array name="tipoMascota">
+        <item>Perro</item>
+        <item>Gato</item>
+        <item>Otro</item>
+    </string-array>
+
+</resources>
