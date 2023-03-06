@@ -1,0 +1,174 @@
+[
+    {
+        "merged": "com.example.proyecto_movipet.app-merged_res-32:/mipmap-xhdpi_ic_launcher_foreground.png.flat",
+        "source": "com.example.proyecto_movipet.app-main-34:/mipmap-xhdpi/ic_launcher_foreground.png"
+    },
+    {
+        "merged": "com.example.proyecto_movipet.app-merged_res-32:/mipmap-xhdpi_ic_launcher_round.png.flat",
+        "source": "com.example.proyecto_movipet.app-main-34:/mipmap-xhdpi/ic_launcher_round.png"
+    },
+    {
+        "merged": "com.example.proyecto_movipet.app-merged_res-32:/layout_activity_solicitar_consulta.xml.flat",
+        "source": "com.example.proyecto_movipet.app-main-34:/layout/activity_solicitar_consulta.xml"
+    },
+    {
+        "merged": "com.example.proyecto_movipet.app-merged_res-32:/drawable_gato_sin_fondo.png.flat",
+        "source": "com.example.proyecto_movipet.app-main-34:/drawable/gato_sin_fondo.png"
+    },
+    {
+        "merged": "com.example.proyecto_movipet.app-merged_res-32:/mipmap-xxxhdpi_ic_launcher.png.flat",
+        "source": "com.example.proyecto_movipet.app-main-34:/mipmap-xxxhdpi/ic_launcher.png"
+    },
+    {
+        "merged": "com.example.proyecto_movipet.app-merged_res-32:/layout_activity_llega_veterinario.xml.flat",
+        "source": "com.example.proyecto_movipet.app-main-34:/layout/activity_llega_veterinario.xml"
+    },
+    {
+        "merged": "com.example.proyecto_movipet.app-merged_res-32:/layout_pantalla_inicial.xml.flat",
+        "source": "com.example.proyecto_movipet.app-main-34:/layout/pantalla_inicial.xml"
+    },
+    {
+        "merged": "com.example.proyecto_movipet.app-merged_res-32:/mipmap-xhdpi_ic_launcher.png.flat",
+        "source": "com.example.proyecto_movipet.app-main-34:/mipmap-xhdpi/ic_launcher.png"
+    },
+    {
+        "merged": "com.example.proyecto_movipet.app-merged_res-32:/layout_activity_pago.xml.flat",
+        "source": "com.example.proyecto_movipet.app-main-34:/layout/activity_pago.xml"
+    },
+    {
+        "merged": "com.example.proyecto_movipet.app-merged_res-32:/layout_activity_info_veterinario.xml.flat",
+        "source": "com.example.proyecto_movipet.app-main-34:/layout/activity_info_veterinario.xml"
+    },
+    {
+        "merged": "com.example.proyecto_movipet.app-merged_res-32:/mipmap-xxxhdpi_ic_launcher_foreground.png.flat",
+        "source": "com.example.proyecto_movipet.app-main-34:/mipmap-xxxhdpi/ic_launcher_foreground.png"
+    },
+    {
+        "merged": "com.example.proyecto_movipet.app-merged_res-32:/mipmap-hdpi_ic_launcher_round.png.flat",
+        "source": "com.example.proyecto_movipet.app-main-34:/mipmap-hdpi/ic_launcher_round.png"
+    },
+    {
+        "merged": "com.example.proyecto_movipet.app-merged_res-32:/layout_registro_usuario.xml.flat",
+        "source": "com.example.proyecto_movipet.app-main-34:/layout/registro_usuario.xml"
+    },
+    {
+        "merged": "com.example.proyecto_movipet.app-merged_res-32:/xml_data_extraction_rules.xml.flat",
+        "source": "com.example.proyecto_movipet.app-main-34:/xml/data_extraction_rules.xml"
+    },
+    {
+        "merged": "com.example.proyecto_movipet.app-merged_res-32:/layout_menu_servicios.xml.flat",
+        "source": "com.example.proyecto_movipet.app-main-34:/layout/menu_servicios.xml"
+    },
+    {
+        "merged": "com.example.proyecto_movipet.app-merged_res-32:/drawable_mapa.png.flat",
+        "source": "com.example.proyecto_movipet.app-main-34:/drawable/mapa.png"
+    },
+    {
+        "merged": "com.example.proyecto_movipet.app-merged_res-32:/drawable_galeria_sin_fondo.png.flat",
+        "source": "com.example.proyecto_movipet.app-main-34:/drawable/galeria_sin_fondo.png"
+    },
+    {
+        "merged": "com.example.proyecto_movipet.app-merged_res-32:/mipmap-xxhdpi_ic_launcher_round.png.flat",
+        "source": "com.example.proyecto_movipet.app-main-34:/mipmap-xxhdpi/ic_launcher_round.png"
+    },
+    {
+        "merged": "com.example.proyecto_movipet.app-merged_res-32:/mipmap-hdpi_ic_launcher.png.flat",
+        "source": "com.example.proyecto_movipet.app-main-34:/mipmap-hdpi/ic_launcher.png"
+    },
+    {
+        "merged": "com.example.proyecto_movipet.app-merged_res-32:/layout_login.xml.flat",
+        "source": "com.example.proyecto_movipet.app-main-34:/layout/login.xml"
+    },
+    {
+        "merged": "com.example.proyecto_movipet.app-merged_res-32:/mipmap-xxxhdpi_ic_launcher_round.png.flat",
+        "source": "com.example.proyecto_movipet.app-main-34:/mipmap-xxxhdpi/ic_launcher_round.png"
+    },
+    {
+        "merged": "com.example.proyecto_movipet.app-merged_res-32:/layout_activity_consulta_domicilio.xml.flat",
+        "source": "com.example.proyecto_movipet.app-main-34:/layout/activity_consulta_domicilio.xml"
+    },
+    {
+        "merged": "com.example.proyecto_movipet.app-merged_res-32:/layout_confirmacion_registro.xml.flat",
+        "source": "com.example.proyecto_movipet.app-main-34:/layout/confirmacion_registro.xml"
+    },
+    {
+        "merged": "com.example.proyecto_movipet.app-merged_res-32:/mipmap-anydpi-v26_ic_launcher_round.xml.flat",
+        "source": "com.example.proyecto_movipet.app-main-34:/mipmap-anydpi-v26/ic_launcher_round.xml"
+    },
+    {
+        "merged": "com.example.proyecto_movipet.app-merged_res-32:/drawable_gradiente_colores.xml.flat",
+        "source": "com.example.proyecto_movipet.app-main-34:/drawable/gradiente_colores.xml"
+    },
+    {
+        "merged": "com.example.proyecto_movipet.app-merged_res-32:/mipmap-mdpi_ic_launcher_round.png.flat",
+        "source": "com.example.proyecto_movipet.app-main-34:/mipmap-mdpi/ic_launcher_round.png"
+    },
+    {
+        "merged": "com.example.proyecto_movipet.app-merged_res-32:/drawable_ic_launcher_background.xml.flat",
+        "source": "com.example.proyecto_movipet.app-main-34:/drawable/ic_launcher_background.xml"
+    },
+    {
+        "merged": "com.example.proyecto_movipet.app-merged_res-32:/layout_activity_servicio_cancelado.xml.flat",
+        "source": "com.example.proyecto_movipet.app-main-34:/layout/activity_servicio_cancelado.xml"
+    },
+    {
+        "merged": "com.example.proyecto_movipet.app-merged_res-32:/layout_activity_detalles_consulta.xml.flat",
+        "source": "com.example.proyecto_movipet.app-main-34:/layout/activity_detalles_consulta.xml"
+    },
+    {
+        "merged": "com.example.proyecto_movipet.app-merged_res-32:/mipmap-hdpi_ic_launcher_foreground.png.flat",
+        "source": "com.example.proyecto_movipet.app-main-34:/mipmap-hdpi/ic_launcher_foreground.png"
+    },
+    {
+        "merged": "com.example.proyecto_movipet.app-merged_res-32:/xml_backup_rules.xml.flat",
+        "source": "com.example.proyecto_movipet.app-main-34:/xml/backup_rules.xml"
+    },
+    {
+        "merged": "com.example.proyecto_movipet.app-merged_res-32:/mipmap-mdpi_ic_launcher.png.flat",
+        "source": "com.example.proyecto_movipet.app-main-34:/mipmap-mdpi/ic_launcher.png"
+    },
+    {
+        "merged": "com.example.proyecto_movipet.app-merged_res-32:/mipmap-xxhdpi_ic_launcher.png.flat",
+        "source": "com.example.proyecto_movipet.app-main-34:/mipmap-xxhdpi/ic_launcher.png"
+    },
+    {
+        "merged": "com.example.proyecto_movipet.app-merged_res-32:/mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "com.example.proyecto_movipet.app-main-34:/mipmap-anydpi-v26/ic_launcher.xml"
+    },
+    {
+        "merged": "com.example.proyecto_movipet.app-merged_res-32:/layout_registro_mascota.xml.flat",
+        "source": "com.example.proyecto_movipet.app-main-34:/layout/registro_mascota.xml"
+    },
+    {
+        "merged": "com.example.proyecto_movipet.app-merged_res-32:/drawable_huella_sin_fondo.png.flat",
+        "source": "com.example.proyecto_movipet.app-main-34:/drawable/huella_sin_fondo.png"
+    },
+    {
+        "merged": "com.example.proyecto_movipet.app-merged_res-32:/drawable_camara_sin_fondo.png.flat",
+        "source": "com.example.proyecto_movipet.app-main-34:/drawable/camara_sin_fondo.png"
+    },
+    {
+        "merged": "com.example.proyecto_movipet.app-merged_res-32:/drawable-v24_ic_launcher_foreground.xml.flat",
+        "source": "com.example.proyecto_movipet.app-main-34:/drawable-v24/ic_launcher_foreground.xml"
+    },
+    {
+        "merged": "com.example.proyecto_movipet.app-merged_res-32:/layout_activity_mapa.xml.flat",
+        "source": "com.example.proyecto_movipet.app-main-34:/layout/activity_mapa.xml"
+    },
+    {
+        "merged": "com.example.proyecto_movipet.app-merged_res-32:/mipmap-xxhdpi_ic_launcher_foreground.png.flat",
+        "source": "com.example.proyecto_movipet.app-main-34:/mipmap-xxhdpi/ic_launcher_foreground.png"
+    },
+    {
+        "merged": "com.example.proyecto_movipet.app-merged_res-32:/mipmap-mdpi_ic_launcher_foreground.png.flat",
+        "source": "com.example.proyecto_movipet.app-main-34:/mipmap-mdpi/ic_launcher_foreground.png"
+    },
+    {
+        "merged": "com.example.proyecto_movipet.app-merged_res-32:/drawable_perro_sin_fondo2.png.flat",
+        "source": "com.example.proyecto_movipet.app-main-34:/drawable/perro_sin_fondo2.png"
+    },
+    {
+        "merged": "com.example.proyecto_movipet.app-merged_res-32:/layout_activity_exitoso.xml.flat",
+        "source": "com.example.proyecto_movipet.app-main-34:/layout/activity_exitoso.xml"
+    }
+]
