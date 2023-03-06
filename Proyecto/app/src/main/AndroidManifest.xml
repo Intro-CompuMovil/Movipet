@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Proyecto_MoviPet"
+        tools:targetApi="31">
+        <activity
+            android:name=".exitoso"
+            android:exported="false" />
+        <activity
+            android:name=".Pago"
+            android:exported="false" />
+        <activity
+            android:name=".detallesConsulta"
+            android:exported="false" />
+        <activity
+            android:name=".servicioCancelado"
+            android:exported="false" />
+        <activity
+            android:name=".llegaVeterinario"
+            android:exported="false" />
+        <activity
+            android:name=".mapa"
+            android:exported="false" />
+        <activity
+            android:name=".consultaDomicilio"
+            android:exported="false" />
+        <activity
+            android:name=".infoVeterinario"
+            android:exported="false" />
+        <activity
+            android:name=".solicitarConsulta"
+            android:exported="false" />
+        <activity
+            android:name=".PantallaInicial"
+            android:exported="false" />
+        <activity
+            android:name=".MenuServicios"
+            android:exported="false" />
+        <activity
+            android:name=".ConfirmacionRegistro"
+            android:exported="false" />
+        <activity
+            android:name=".RegistroMascota"
+            android:exported="false" />
+        <activity
+            android:name=".RegistroUsuario"
+            android:exported="false" />
+        <activity
+            android:name=".registro_usuario"
+            android:exported="false" />
+        <activity
+            android:name=".Login"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
