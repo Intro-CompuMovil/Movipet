@@ -12,10 +12,18 @@ class InfoVeterinario : AppCompatActivity() {
         setContentView(R.layout.activity_info_veterinario)
 
         val btn = findViewById<Button>(R.id.solivet)
+        val btn2 = findViewById<Button>(R.id.cancelarSoli)
+
         btn.setOnClickListener {
             val intent = Intent(this, Mapa::class.java)
             startActivity(intent)
 
         }
+        btn2.setOnClickListener {
+            val intent = Intent(this, servicioCancelado::class.java)
+            startActivity(intent)
+
+        }
     }
+
 }

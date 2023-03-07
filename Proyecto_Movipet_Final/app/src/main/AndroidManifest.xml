@@ -8,7 +8,8 @@
 
     <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
     <uses-permission android:name="android.permission.CAMERA" />
-    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"
+    <uses-permission
+        android:name="android.permission.WRITE_EXTERNAL_STORAGE"
         tools:ignore="ScopedStorage" />
 
     <queries>
@@ -26,6 +27,9 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Proyecto_MoviPet"
         tools:targetApi="31">
+        <activity
+            android:name=".servicioCancelado"
+            android:exported="false" />
         <activity
             android:name=".Exitoso"
             android:exported="false" />
