@@ -19,7 +19,7 @@ class ConfirmacionRegistro : AppCompatActivity() {
             startActivity(intent)
         }
 
-        val btn2 = findViewById<Button>(R.id.btn_agregar_otra_mascota)
+        val btn2 = findViewById<Button>(R.id.btn_agregarMascota)
         btn2.setOnClickListener{
             val intent = Intent(this, RegistroMascota::class.java)
             startActivity(intent)
