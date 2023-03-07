@@ -1,5 +1,4 @@
 <?xml version="1.0" encoding="utf-8"?>
-
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools">
 
@@ -10,7 +9,6 @@
     <uses-permission
         android:name="android.permission.READ_EXTERNAL_STORAGE"
         tools:ignore="ScopedStorage" />
-
     <uses-permission
         android:name="android.permission.WRITE_EXTERNAL_STORAGE"
         tools:ignore="ScopedStorage" />
@@ -30,10 +28,34 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Proyecto_MoviPet"
         tools:targetApi="31">
+        <activity
+            android:name=".exitoso"
+            android:exported="false" />
+        <activity
+            android:name=".Pago"
+            android:exported="false" />
+        <activity
+            android:name=".detallesConsulta"
+            android:exported="false" />
+        <activity
+            android:name=".llegaVeterinario"
+            android:exported="false" />
+        <activity
+            android:name=".mapa"
+            android:exported="false" />
+        <activity
+            android:name=".infoVeterinario"
+            android:exported="false" />
+        <activity
+            android:name=".consultaDomicilio"
+            android:exported="false" />
+        <activity
+            android:name=".solicitarConsulta"
+            android:exported="false" />
 
         <provider
-            android:authorities="${applicationId}.fileprovider"
             android:name="androidx.core.content.FileProvider"
+            android:authorities="${applicationId}.fileprovider"
             android:exported="false"
             android:grantUriPermissions="true">
             <meta-data
@@ -44,16 +66,15 @@
         <activity
             android:name=".Confirmar_foto"
             android:exported="false" />
-
         <activity
             android:name=".PantallaInicial"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
+
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-
         <activity
             android:name=".MenuServicios"
             android:exported="false" />
@@ -68,8 +89,7 @@
             android:exported="false" />
         <activity
             android:name=".Login"
-            android:exported="false"/>
-
+            android:exported="false" />
     </application>
 
 </manifest>

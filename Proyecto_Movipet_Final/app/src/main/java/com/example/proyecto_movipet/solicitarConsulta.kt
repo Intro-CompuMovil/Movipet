@@ -5,13 +5,13 @@ import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.widget.Button
 
-class MenuServicios : AppCompatActivity() {
+class solicitarConsulta : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.menu_servicios)
-        val btn = findViewById<Button>(R.id.btn_urgencia)
+        setContentView(R.layout.activity_solicitar_consulta)
+        val btn = findViewById<Button>(R.id.solicitarConsul)
         btn.setOnClickListener{
-            val intent = Intent(this, solicitarConsulta::class.java)
+            val intent = Intent(this, consultaDomicilio::class.java)
             startActivity(intent)
         }
     }
