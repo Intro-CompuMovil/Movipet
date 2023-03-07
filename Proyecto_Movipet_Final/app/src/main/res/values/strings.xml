@@ -49,6 +49,7 @@
     <string name="tv_estado">Estado:</string>
     <string name="tv_especialidad">Especialidad:</string>
     <string name="tv_informacion_del_veterinario">INFORMACION DEL VETERINARIO</string>
+    <string name="tv_cvv">CVV:</string>
 
     <string-array name="tipoMascota">
         <item>Perro</item>
