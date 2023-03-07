@@ -10,8 +10,14 @@ class MenuServicios : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.menu_servicios)
         val btn = findViewById<Button>(R.id.btn_urgencia)
+        val btn2 = findViewById<Button>(R.id.btn_paseadores)
+
         btn.setOnClickListener{
             val intent = Intent(this, SolicitarConsulta::class.java)
+            startActivity(intent)
+        }
+        btn.setOnClickListener{
+            val intent = Intent(this, Paseador::class.java)
             startActivity(intent)
         }
     }
