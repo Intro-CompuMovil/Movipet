@@ -16,7 +16,7 @@ class MenuServicios : AppCompatActivity() {
             val intent = Intent(this, SolicitarConsulta::class.java)
             startActivity(intent)
         }
-        btn.setOnClickListener{
+        btn2.setOnClickListener{
             val intent = Intent(this, Paseador::class.java)
             startActivity(intent)
         }
