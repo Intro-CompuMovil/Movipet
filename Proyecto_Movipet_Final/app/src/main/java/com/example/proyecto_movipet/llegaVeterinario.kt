@@ -19,7 +19,7 @@ class llegaVeterinario : AppCompatActivity() {
         val runnable = Runnable {
             setContentView(R.layout.activity_llega_veterinario)
             handler.postDelayed({
-                val intent = Intent(this, detallesConsulta::class.java)
+                val intent = Intent(this, DetallesConsulta::class.java)
                 startActivity(intent)
             }, tiempoDeEspera)
         }

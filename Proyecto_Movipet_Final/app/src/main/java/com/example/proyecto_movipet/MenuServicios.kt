@@ -11,7 +11,7 @@ class MenuServicios : AppCompatActivity() {
         setContentView(R.layout.menu_servicios)
         val btn = findViewById<Button>(R.id.btn_urgencia)
         btn.setOnClickListener{
-            val intent = Intent(this, solicitarConsulta::class.java)
+            val intent = Intent(this, SolicitarConsulta::class.java)
             startActivity(intent)
         }
     }

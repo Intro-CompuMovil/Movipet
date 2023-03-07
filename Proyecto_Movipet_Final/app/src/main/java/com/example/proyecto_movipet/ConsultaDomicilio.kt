@@ -6,7 +6,7 @@ import android.os.Bundle
 import android.os.Handler
 
 
-class consultaDomicilio : AppCompatActivity() {
+class ConsultaDomicilio : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_consulta_domicilio)
@@ -20,7 +20,7 @@ class consultaDomicilio : AppCompatActivity() {
         val runnable = Runnable {
             setContentView(R.layout.activity_consulta_domicilio)
             handler.postDelayed({
-                val intent = Intent(this, infoVeterinario::class.java)
+                val intent = Intent(this, InfoVeterinario::class.java)
                 startActivity(intent)
             }, tiempoDeEspera)
         }

@@ -5,20 +5,21 @@ import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.os.Handler
 
-class exitoso : AppCompatActivity() {
+class Mapa : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_exitoso)
+        setContentView(R.layout.activity_mapa)
         mostrarsiguiente(4000)
+
     }
     private fun mostrarsiguiente(tiempoDeEspera: Long) {
 
         val handler = Handler()
 
         val runnable = Runnable {
-            setContentView(R.layout.activity_exitoso)
+            setContentView(R.layout.activity_mapa)
             handler.postDelayed({
-                val intent = Intent(this, MenuServicios::class.java)
+                val intent = Intent(this, llegaVeterinario::class.java)
                 startActivity(intent)
             }, tiempoDeEspera)
         }

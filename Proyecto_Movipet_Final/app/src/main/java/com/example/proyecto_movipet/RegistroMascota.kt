@@ -19,7 +19,7 @@ class RegistroMascota : AppCompatActivity() {
         setContentView(binding.root)
 
         binding.btnContinuar.setOnClickListener {
-            val intent = Intent(this, Confirmar_foto::class.java)
+            val intent = Intent(this, ConfirmarFotoMascota::class.java)
             startActivity(intent)
         }
     }

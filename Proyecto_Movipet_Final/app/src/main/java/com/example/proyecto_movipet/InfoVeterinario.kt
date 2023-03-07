@@ -1,12 +1,11 @@
 package com.example.proyecto_movipet
 
-import android.annotation.SuppressLint
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.widget.Button
 
-class infoVeterinario : AppCompatActivity() {
+class InfoVeterinario : AppCompatActivity() {
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -14,7 +13,7 @@ class infoVeterinario : AppCompatActivity() {
 
         val btn = findViewById<Button>(R.id.solivet)
         btn.setOnClickListener {
-            val intent = Intent(this, mapa::class.java)
+            val intent = Intent(this, Mapa::class.java)
             startActivity(intent)
 
         }

@@ -6,11 +6,9 @@
         android:name="android.hardware.camera"
         android:required="true" />
 
-    <uses-permission
-        android:name="android.permission.READ_EXTERNAL_STORAGE"
-        tools:ignore="ScopedStorage" />
-    <uses-permission
-        android:name="android.permission.WRITE_EXTERNAL_STORAGE"
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"
         tools:ignore="ScopedStorage" />
 
     <queries>
@@ -29,28 +27,28 @@
         android:theme="@style/Theme.Proyecto_MoviPet"
         tools:targetApi="31">
         <activity
-            android:name=".exitoso"
+            android:name=".Exitoso"
             android:exported="false" />
         <activity
             android:name=".Pago"
             android:exported="false" />
         <activity
-            android:name=".detallesConsulta"
+            android:name=".DetallesConsulta"
             android:exported="false" />
         <activity
             android:name=".llegaVeterinario"
             android:exported="false" />
         <activity
-            android:name=".mapa"
+            android:name=".Mapa"
             android:exported="false" />
         <activity
-            android:name=".infoVeterinario"
+            android:name=".InfoVeterinario"
             android:exported="false" />
         <activity
-            android:name=".consultaDomicilio"
+            android:name=".ConsultaDomicilio"
             android:exported="false" />
         <activity
-            android:name=".solicitarConsulta"
+            android:name=".SolicitarConsulta"
             android:exported="false" />
 
         <provider
@@ -64,7 +62,7 @@
         </provider>
 
         <activity
-            android:name=".Confirmar_foto"
+            android:name=".ConfirmarFotoMascota"
             android:exported="false" />
         <activity
             android:name=".PantallaInicial"

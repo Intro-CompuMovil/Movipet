@@ -40,6 +40,15 @@
     <string name="iv_historia_clinica">Historia\nClinica</string>
     <string name="tv_cargar_foto_mascota">Carga la foto de tu mascota!</string>
     <string name="btn_foto">FOTO</string>
+    <string name="btn_continuar3">CONTINUAR</string>
+    <string name="tv_solicitar">SOLICITAR</string>
+    <string name="tv__35000">$35000</string>
+    <string name="tv_juan_perez">Juan Perez</string>
+    <string name="tv_metodo_de_pago">Metodo de Pago:</string>
+    <string name="tv_precio">Precio:</string>
+    <string name="tv_estado">Estado:</string>
+    <string name="tv_especialidad">Especialidad:</string>
+    <string name="tv_informacion_del_veterinario">INFORMACION DEL VETERINARIO</string>
 
     <string-array name="tipoMascota">
         <item>Perro</item>
