@@ -134,7 +134,7 @@
             tools:layout_editor_absoluteY="265dp" />
         <Spinner
             android:id="@+id/spinner"
-            android:layout_width="wrap_content"
+            android:layout_width="370dp"
             android:layout_height="48dp"
             android:backgroundTint="@color/pink_dark"
             android:entries="@array/tipoMascota"
