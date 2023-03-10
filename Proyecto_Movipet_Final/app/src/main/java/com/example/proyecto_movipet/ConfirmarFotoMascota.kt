@@ -25,6 +25,7 @@ import java.io.File
 import java.io.OutputStream
 import java.util.*
 
+// Tiene que aparecer esto en tu codigo //
 
 class ConfirmarFotoMascota : AppCompatActivity() {
 
