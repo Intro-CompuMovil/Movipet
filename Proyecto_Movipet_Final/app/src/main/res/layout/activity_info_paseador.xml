@@ -5,8 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@drawable/gradiente_colores"
-    tools:context=".DetallesConsulta">
-
+    tools:context=".infoPaseador">
     <androidx.constraintlayout.widget.Guideline
         android:id="@+id/h05"
         android:layout_width="wrap_content"
@@ -22,18 +21,12 @@
         android:orientation="horizontal"/>
 
     <androidx.constraintlayout.widget.Guideline
-        android:id="@+id/h39"
+        android:id="@+id/h52"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:orientation="horizontal"
-        app:layout_constraintGuide_percent="0.39" />
+        app:layout_constraintGuide_percent="0.52" />
 
-    <androidx.constraintlayout.widget.Guideline
-        android:id="@+id/h69"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:orientation="horizontal"
-        app:layout_constraintGuide_percent="0.69" />
 
     <androidx.constraintlayout.widget.Guideline
         android:id="@+id/h90"
@@ -56,8 +49,6 @@
         app:layout_constraintGuide_percent=".05"
         android:orientation="vertical"/>
 
-
-
     <androidx.constraintlayout.widget.Guideline
         android:id="@+id/v27"
         android:layout_width="wrap_content"
@@ -72,14 +63,12 @@
         app:layout_constraintGuide_percent=".75"
         android:orientation="vertical"/>
 
-
     <androidx.constraintlayout.widget.Guideline
         android:id="@+id/v95"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         app:layout_constraintGuide_percent=".95"
         android:orientation="vertical"/>
-
     <LinearLayout
         android:layout_width="0dp"
         android:layout_height="wrap_content"
@@ -90,15 +79,28 @@
         app:layout_constraintEnd_toEndOf="@id/v95">
 
 
+
         <TextView
-            android:id="@+id/textView20"
+            android:id="@+id/inforpas"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="DETALLES DE LA CONSULTA"
+            android:text="INFORMACION DEL PASEADOR"
+            android:textSize="26sp"
             android:layout_gravity="center"
-            android:textSize="27sp"
             android:textStyle="bold"
-            tools:layout_editor_absoluteY="704dp" />
+            tools:layout_editor_absoluteX="49dp"
+            tools:layout_editor_absoluteY="42dp" />
+
+        <TextView
+            android:id="@+id/textView78"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Paseador Encontrado"
+            android:layout_gravity="center"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            tools:layout_editor_absoluteX="108dp"
+            tools:layout_editor_absoluteY="92dp" />
     </LinearLayout>
 
     <ImageView
@@ -107,123 +109,81 @@
         android:layout_height="0dp"
         android:layout_marginBottom="10dp"
         app:layout_constraintTop_toBottomOf="@id/h15"
-        app:layout_constraintBottom_toBottomOf="@id/h39"
+        app:layout_constraintBottom_toBottomOf="@id/h52"
         app:layout_constraintStart_toStartOf="@id/v27"
         app:layout_constraintEnd_toEndOf="@id/v75"/>
+
     <LinearLayout
-        android:id="@+id/detpas"
-        android:layout_width="0dp"
-        android:layout_height="wrap_content"
+        android:id="@+id/infopass"
+        android:layout_width="370dp"
+        android:layout_height="266dp"
         android:orientation="vertical"
-        app:layout_constraintBottom_toBottomOf="@id/h69"
+        app:layout_constraintBottom_toBottomOf="@id/h90"
         app:layout_constraintEnd_toEndOf="@id/v95"
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="@id/v05"
-        app:layout_constraintTop_toBottomOf="@id/h39"
-        app:layout_constraintVertical_bias="0.089">
+        app:layout_constraintTop_toBottomOf="@id/h52"
+        app:layout_constraintVertical_bias="0.095">
+
+
         <TextView
             android:id="@+id/textView8"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Veterinario"
+            android:text="Nombre:"
             android:textSize="20sp"
             android:textStyle="bold"
-            tools:layout_editor_absoluteX="36dp"
-            tools:layout_editor_absoluteY="108dp" />
-        <TextView
-            android:id="@+id/textView17"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="Juan Perez"
-            android:textSize="20sp"
-            tools:layout_editor_absoluteX="39dp"
-            tools:layout_editor_absoluteY="153dp" />
-
-        <TextView
-            android:id="@+id/textView9"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="Nombre del Usuario"
-            android:textSize="20sp"
-            android:textStyle="bold"
-            tools:layout_editor_absoluteX="36dp"
-            tools:layout_editor_absoluteY="215dp" />
+            tools:layout_editor_absoluteX="169dp"
+            tools:layout_editor_absoluteY="184dp" />
 
         <TextView
             android:id="@+id/textView19"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Andres Medina"
+            android:text="Alfonso Daza"
             android:textSize="20sp"
             tools:layout_editor_absoluteX="36dp"
-            tools:layout_editor_absoluteY="268dp" />
+            tools:layout_editor_absoluteY="251dp" />
+
         <TextView
-            android:id="@+id/textView15"
+            android:id="@+id/textView10"
             android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="Paciente:"
+            android:layout_height="27dp"
+
+            android:text="Estado:"
             android:textSize="20sp"
             android:textStyle="bold"
-            tools:layout_editor_absoluteX="39dp"
-            tools:layout_editor_absoluteY="339dp" />
+            tools:layout_editor_absoluteX="257dp"
+            tools:layout_editor_absoluteY="278dp" />
+
+        <TextView
+            android:id="@+id/textView21"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Disponible"
+            android:textSize="20sp"
+            tools:layout_editor_absoluteX="117dp"
+            tools:layout_editor_absoluteY="320dp" />
 
         <TextView
             android:id="@+id/textView11"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="2pac"
-            android:textSize="20sp"
-            tools:layout_editor_absoluteX="139dp"
-            tools:layout_editor_absoluteY="339dp" />
 
-        <TextView
-            android:id="@+id/textView10"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="Estado:"
-            android:textSize="20sp"
-            android:textStyle="bold"
-            tools:layout_editor_absoluteX="36dp"
-            tools:layout_editor_absoluteY="704dp" />
-
-        <TextView
-            android:id="@+id/textView42"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="Finalizado"
-            android:textSize="20sp"
-            tools:layout_editor_absoluteX="139dp"
-            tools:layout_editor_absoluteY="418dp" />
-
-    </LinearLayout>
-
-    <LinearLayout
-        android:id="@+id/pay"
-        android:layout_width="0dp"
-        android:layout_height="wrap_content"
-        android:orientation="vertical"
-        app:layout_constraintTop_toBottomOf="@id/h69"
-        app:layout_constraintBottom_toBottomOf="@id/h90"
-        app:layout_constraintStart_toStartOf="@id/v05"
-        app:layout_constraintEnd_toEndOf="@id/v95">
-
-        <TextView
-            android:id="@+id/textView31"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
             android:text="Precio:"
             android:textSize="20sp"
             android:textStyle="bold"
-            tools:layout_editor_absoluteX="34dp"
-            tools:layout_editor_absoluteY="763dp" />
+            tools:layout_editor_absoluteX="81dp"
+            tools:layout_editor_absoluteY="368dp" />
+
         <TextView
             android:id="@+id/textView22"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="$00000"
             android:textSize="20sp"
-            tools:layout_editor_absoluteX="115dp"
-            tools:layout_editor_absoluteY="477dp" />
+            tools:layout_editor_absoluteX="164dp"
+            tools:layout_editor_absoluteY="368dp" />
 
         <TextView
             android:id="@+id/textView12"
@@ -231,17 +191,18 @@
             android:layout_height="wrap_content"
             android:text="Metodo de Pago:"
             android:textSize="20sp"
+
             android:textStyle="bold"
-            tools:layout_editor_absoluteX="128dp"
-            tools:layout_editor_absoluteY="545dp" />
+            tools:layout_editor_absoluteX="2dp"
+            tools:layout_editor_absoluteY="445dp" />
 
         <Spinner
             android:id="@+id/spinner"
-            android:layout_width="208dp"
-            android:layout_height="63dp"
+            android:layout_width="369dp"
+            android:layout_height="60dp"
             android:entries="@array/metodopago"
-            tools:layout_editor_absoluteX="206dp"
-            tools:layout_editor_absoluteY="445dp" />
+            tools:layout_editor_absoluteX="182dp"
+            tools:layout_editor_absoluteY="435dp" />
     </LinearLayout>
 
     <LinearLayout
@@ -259,19 +220,30 @@
             android:layout_weight=".05"/>
 
         <com.google.android.material.button.MaterialButton
-            android:id="@+id/pagarVet"
-            android:layout_width="370dp"
+            android:id="@+id/contPaseador"
+            android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:backgroundTint="@color/pink_dark"
-            android:text="Pagar"
-            tools:layout_editor_absoluteX="51dp"
-            tools:layout_editor_absoluteY="599dp" />
+            android:text="solicitar"
+            tools:layout_editor_absoluteX="57dp"
+            tools:layout_editor_absoluteY="623dp" />
+        <Space
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight=".05"/>
 
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/cancelarsoliPaseador"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:backgroundTint="@color/pink_dark"
+            android:text="cancelar"
+            tools:layout_editor_absoluteX="242dp"
+            tools:layout_editor_absoluteY="623dp" />
         <Space
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_weight=".05"/>
     </LinearLayout>
-
 
 </androidx.constraintlayout.widget.ConstraintLayout>

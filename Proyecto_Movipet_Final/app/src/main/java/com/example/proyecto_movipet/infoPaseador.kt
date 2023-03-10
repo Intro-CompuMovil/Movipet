@@ -5,23 +5,19 @@ import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.widget.Button
 
-class InfoVeterinario : AppCompatActivity() {
-
+class infoPaseador : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_info_veterinario)
-
-        val btn = findViewById<Button>(R.id.solivet)
+        setContentView(R.layout.activity_info_paseador)
+        val btn = findViewById<Button>(R.id.contPaseador)
         btn.setOnClickListener {
-            val intent = Intent(this, Mapa::class.java)
+            val intent = Intent(this, mapaPaseador::class.java)
             startActivity(intent)
 
         }
-        val btn2 = findViewById<Button>(R.id.cancelarsoliVet)
+        val btn2 = findViewById<Button>(R.id.cancelarsoliPaseador)
         btn2.setOnClickListener {
             val intent = Intent(this, servicioCancelado::class.java)
             startActivity(intent)
         }
-    }
-}
-
+    }}

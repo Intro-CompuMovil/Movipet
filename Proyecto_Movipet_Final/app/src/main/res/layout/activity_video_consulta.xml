@@ -5,8 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@drawable/gradiente_colores"
-    tools:context=".DetallesConsulta">
-
+    tools:context=".videoConsulta">
     <androidx.constraintlayout.widget.Guideline
         android:id="@+id/h05"
         android:layout_width="wrap_content"
@@ -88,17 +87,16 @@
         app:layout_constraintBottom_toBottomOf="@id/h15"
         app:layout_constraintStart_toStartOf="@id/v05"
         app:layout_constraintEnd_toEndOf="@id/v95">
-
-
         <TextView
-            android:id="@+id/textView20"
+            android:id="@+id/detalleconsulvi"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="DETALLES DE LA CONSULTA"
+            android:text="DETALLES DE LA VIDEO CONSULTA"
+            android:textSize="23sp"
             android:layout_gravity="center"
-            android:textSize="27sp"
             android:textStyle="bold"
-            tools:layout_editor_absoluteY="704dp" />
+            tools:layout_editor_absoluteX="43dp"
+            tools:layout_editor_absoluteY="42dp" />
     </LinearLayout>
 
     <ImageView
@@ -110,8 +108,9 @@
         app:layout_constraintBottom_toBottomOf="@id/h39"
         app:layout_constraintStart_toStartOf="@id/v27"
         app:layout_constraintEnd_toEndOf="@id/v75"/>
+
     <LinearLayout
-        android:id="@+id/detpas"
+        android:id="@+id/infovetvi"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:orientation="vertical"
@@ -121,6 +120,7 @@
         app:layout_constraintStart_toStartOf="@id/v05"
         app:layout_constraintTop_toBottomOf="@id/h39"
         app:layout_constraintVertical_bias="0.089">
+
         <TextView
             android:id="@+id/textView8"
             android:layout_width="wrap_content"
@@ -130,14 +130,15 @@
             android:textStyle="bold"
             tools:layout_editor_absoluteX="36dp"
             tools:layout_editor_absoluteY="108dp" />
+
         <TextView
             android:id="@+id/textView17"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="Juan Perez"
             android:textSize="20sp"
-            tools:layout_editor_absoluteX="39dp"
-            tools:layout_editor_absoluteY="153dp" />
+            tools:layout_editor_absoluteX="36dp"
+            tools:layout_editor_absoluteY="157dp" />
 
         <TextView
             android:id="@+id/textView9"
@@ -157,6 +158,7 @@
             android:textSize="20sp"
             tools:layout_editor_absoluteX="36dp"
             tools:layout_editor_absoluteY="268dp" />
+
         <TextView
             android:id="@+id/textView15"
             android:layout_width="wrap_content"
@@ -183,8 +185,8 @@
             android:text="Estado:"
             android:textSize="20sp"
             android:textStyle="bold"
-            tools:layout_editor_absoluteX="36dp"
-            tools:layout_editor_absoluteY="704dp" />
+            tools:layout_editor_absoluteX="47dp"
+            tools:layout_editor_absoluteY="410dp" />
 
         <TextView
             android:id="@+id/textView42"
@@ -194,7 +196,6 @@
             android:textSize="20sp"
             tools:layout_editor_absoluteX="139dp"
             tools:layout_editor_absoluteY="418dp" />
-
     </LinearLayout>
 
     <LinearLayout
@@ -208,22 +209,23 @@
         app:layout_constraintEnd_toEndOf="@id/v95">
 
         <TextView
-            android:id="@+id/textView31"
+            android:id="@+id/textView14"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="Precio:"
             android:textSize="20sp"
             android:textStyle="bold"
-            tools:layout_editor_absoluteX="34dp"
-            tools:layout_editor_absoluteY="763dp" />
+            tools:layout_editor_absoluteX="23dp"
+            tools:layout_editor_absoluteY="467dp" />
+
         <TextView
             android:id="@+id/textView22"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="$00000"
             android:textSize="20sp"
-            tools:layout_editor_absoluteX="115dp"
-            tools:layout_editor_absoluteY="477dp" />
+            tools:layout_editor_absoluteX="108dp"
+            tools:layout_editor_absoluteY="467dp" />
 
         <TextView
             android:id="@+id/textView12"
@@ -231,17 +233,18 @@
             android:layout_height="wrap_content"
             android:text="Metodo de Pago:"
             android:textSize="20sp"
+
             android:textStyle="bold"
-            tools:layout_editor_absoluteX="128dp"
-            tools:layout_editor_absoluteY="545dp" />
+            tools:layout_editor_absoluteX="23dp"
+            tools:layout_editor_absoluteY="504dp" />
 
         <Spinner
             android:id="@+id/spinner"
-            android:layout_width="208dp"
-            android:layout_height="63dp"
+            android:layout_width="370dp"
+            android:layout_height="48dp"
             android:entries="@array/metodopago"
-            tools:layout_editor_absoluteX="206dp"
-            tools:layout_editor_absoluteY="445dp" />
+            tools:layout_editor_absoluteX="23dp"
+            tools:layout_editor_absoluteY="543dp" />
     </LinearLayout>
 
     <LinearLayout
@@ -252,26 +255,24 @@
         app:layout_constraintStart_toStartOf="@id/v05"
         app:layout_constraintTop_toBottomOf="@id/h90"
         app:layout_constraintEnd_toEndOf="@id/v95">
-
         <Space
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_weight=".05"/>
 
         <com.google.android.material.button.MaterialButton
-            android:id="@+id/pagarVet"
-            android:layout_width="370dp"
+            android:id="@+id/pagarvideoConsulta"
+            android:layout_width="380dp"
             android:layout_height="wrap_content"
             android:backgroundTint="@color/pink_dark"
+            android:layout_gravity="center"
             android:text="Pagar"
-            tools:layout_editor_absoluteX="51dp"
-            tools:layout_editor_absoluteY="599dp" />
-
+            tools:layout_editor_absoluteX="162dp"
+            tools:layout_editor_absoluteY="626dp" />
         <Space
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_weight=".05"/>
     </LinearLayout>
-
 
 </androidx.constraintlayout.widget.ConstraintLayout>

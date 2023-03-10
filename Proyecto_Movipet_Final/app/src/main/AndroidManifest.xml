@@ -28,6 +28,33 @@
         android:theme="@style/Theme.Proyecto_MoviPet"
         tools:targetApi="31">
         <activity
+            android:name=".videoConsulta"
+            android:exported="false" />
+        <activity
+            android:name=".infoVetVideo"
+            android:exported="false" />
+        <activity
+            android:name=".consultaVideo"
+            android:exported="false" />
+        <activity
+            android:name=".solicitarVideoConsulta"
+            android:exported="false" />
+        <activity
+            android:name=".detallesPaseo"
+            android:exported="false" />
+        <activity
+            android:name=".llegaPaseador"
+            android:exported="false" />
+        <activity
+            android:name=".mapaPaseador"
+            android:exported="false" />
+        <activity
+            android:name=".infoPaseador"
+            android:exported="false" />
+        <activity
+            android:name=".buscarPaseador"
+            android:exported="false" />
+        <activity
             android:name=".Paseador"
             android:exported="false" />
         <activity

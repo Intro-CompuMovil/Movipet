@@ -5,13 +5,13 @@ import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.widget.Button
 
-class Paseador : AppCompatActivity() {
+class videoConsulta : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_paseador)
-        val btn = findViewById<Button>(R.id.soliPase)
-        btn.setOnClickListener {
-            val intent = Intent(this, buscarPaseador::class.java)
+        setContentView(R.layout.activity_video_consulta)
+        val btn = findViewById<Button>(R.id.pagarvideoConsulta)
+        btn.setOnClickListener{
+            val intent = Intent(this, Pago::class.java)
             startActivity(intent)
 
 

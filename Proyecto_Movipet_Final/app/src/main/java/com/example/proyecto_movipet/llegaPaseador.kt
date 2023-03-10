@@ -5,22 +5,20 @@ import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.os.Handler
 
-class PantallaInicial : AppCompatActivity() {
-
+class llegaPaseador : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-
-        mostrarPantallaDeBienvenida(4000)
+        setContentView(R.layout.activity_llega_paseador)
+        mostrarsiguiente(4000)
     }
-
-    private fun mostrarPantallaDeBienvenida(tiempoDeEspera: Long) {
+    private fun mostrarsiguiente(tiempoDeEspera: Long) {
 
         val handler = Handler()
 
         val runnable = Runnable {
-            setContentView(R.layout.pantalla_inicial)
+            setContentView(R.layout.activity_llega_paseador)
             handler.postDelayed({
-                val intent = Intent(this, Login::class.java)
+                val intent = Intent(this, detallesPaseo::class.java)
                 startActivity(intent)
             }, tiempoDeEspera)
         }
